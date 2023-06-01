@@ -1,0 +1,18 @@
+mkdir Actividades
+mkdir Actividades/"Deportes de equipo" Actividades/"Deportes acuaticos" Actividades/"Deportes extremos" Actividades/"Deportes de mesa" Actividades/"Deportes mentales"
+touch Actividades/"Deportes de equipo"/Basquet Actividades/"Deportes mentales"/Ajedrez.txt Actividades/"Deportes de mesa"/"Ping pong"
+mkdir Actividades && mkdir Actividades/"Deportes de equipo" Actividades/"Deportes acuaticos" Actividades/"Deportes extremos" Actividades/"Deportes de mesa" Actividades/"Deportes mentales" && touch Actividades/"Deportes de equipo"/Basquet Actividades/"Deportes mentales"/Ajedrez.txt Actividades/"Deportes de mesa"/"Ping pong"
+mkdir Actividades Actividades/"Deportes de equipo" Actividades/"Deportes acuaticos" Actividades/"Deportes extremos" Actividades/"Deportes de mesa" Actividades/"Deportes mentales"
+mkdir Actividades && mkdir Actividades/"Deportes de equipo" Actividades/"Deportes acuaticos" Actividades/"Deportes extremos" Actividades/"Deportes de mesa" Actividades/"Deportes mentales" && touch Actividades/"Deportes de equipo"/Basquet Actividades/"Deportes mentales"/Ajedrez.txt Actividades/"Deportes de mesa"/"Ping pong
+mkdir Actividades && mkdir Actividades/"Deportes de equipo" Actividades/"Deportes acuaticos" Actividades/"Deportes extremos" Actividades/"Deportes de mesa" Actividades/"Deportes mentales" && touch Actividades/"Deportes de equipo"/Basquet Actividades/"Deportes mentales"/Ajedrez.txt Actividades/"Deportes de mesa"/"Ping pong"
+cd Actividades
+ls -R
+rm -r "Deportes extremos"
+pwd
+git init
+git add .
+git commit -m "8."
+git remote add origin https://github.com/hsosa09/Intro-a-la-Informatica-Clase11-C1.git
+git branch -m main
+git status
+git push origin main
